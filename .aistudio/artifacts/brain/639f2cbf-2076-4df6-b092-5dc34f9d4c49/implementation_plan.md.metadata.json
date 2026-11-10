@@ -1,0 +1,6 @@
+{
+  "summary":  "Rapport d'enquête et plan de résolution pour le fond noir sur iPhone (Safari et Chrome) : diagnostic complet de la cause (conflit d'attribut src et absence d'appel .load() dans le moteur WebKit iOS, masquage par les calques noirs sans poster), et plan de correction ciblé pour rétablir la vidéo sans toucher à aucun autre élément du site.",
+  "updatedAt":  "2026-11-10T10:02:39.250931048Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

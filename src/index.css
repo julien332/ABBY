@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Archivo Narrow", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: "Archivo Narrow", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: "Gentium Book Plus", "Gentium Plus", Georgia, serif;
+  --font-body: "Gentium Book Plus", "Gentium Plus", Georgia, serif;
+
+  --color-lilas: #966EA3;
+  --color-lilas-dark: #7d548b;
+  --color-lilas-light: #b08bbd;
+  --color-lilas-muted: rgba(150, 110, 163, 0.18);
+
+  --color-charbon: #2E2E2E;
+  --color-charbon-deep: #1e1e1e;
+  --color-charbon-surface: #383838;
+  --color-charbon-card: #272727;
+
+  --color-fer: #D9D9D9;
+  --color-fer-light: #f0f0f0;
+  --color-fer-dark: #b8b8b8;
+
+  --color-blood-moon: #FA6755;
+  --color-blood-moon-dark: #e14e3b;
+  --color-blood-moon-glow: rgba(250, 103, 85, 0.25);
+}
+
+@layer base {
+  html, body {
+    background-color: var(--color-charbon);
+    color: var(--color-fer);
+    font-family: var(--font-body);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  /* TITRES : Archivo Narrow, en MAJUSCULES, 5% interlettre */
+  h1, h2, h3, .font-title {
+    font-family: var(--font-display);
+    letter-spacing: 0.05em; /* 5% interlettre */
+    text-transform: uppercase;
+  }
+
+  /* SOUS-TITRES : Gentium Grotesk / Gentium, en MAJUSCULES */
+  h4, h5, .font-subtitle {
+    font-family: var(--font-serif);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  /* CORPS DE TEXTE : Gentium, Regular */
+  p, span, li, blockquote, .font-body {
+    font-family: var(--font-body);
+    font-weight: 400;
+  }
+}
+
+/* Custom subtle linocut texture overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #232323;
+}
+::-webkit-scrollbar-thumb {
+  background: #474747;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #966EA3;
+}

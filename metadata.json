@@ -1,0 +1,6 @@
+{
+  "name": "ABBY — Restaurant de Pâtes Fraîches à Paris",
+  "description": "Site officiel du restaurant ABBY à Paris 18e par Geoffroy & Jacques. Le temple des pâtes fraîches faites maison, tradition italienne et audace parisienne.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
