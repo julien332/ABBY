@@ -61,11 +61,11 @@ export default function App() {
 
     // Update document title for SEO
     if (path === '/a-propos') {
-      document.title = "À propos de Geoffroy & Jacques — ABBY Paris (Le temple des pâtes)";
+      document.title = "À propos de Geoffroy & Jacques — ABBY Paris 9e | Le Temple des Pâtes Fraîches";
     } else if (path === '/menu') {
-      document.title = "Grimoire des Délices — Menu du Restaurant ABBY Paris 18e";
+      document.title = "Grimoire des Délices — Carte & Menu du Restaurant ABBY Paris 9e";
     } else {
-      document.title = "ABBY — Restaurant de Pâtes Fraîches à Paris (Paris 18e)";
+      document.title = "ABBY - BEST PASTA FRESCA | Restaurant Pâtes Fraîches Paris";
     }
   };
 
