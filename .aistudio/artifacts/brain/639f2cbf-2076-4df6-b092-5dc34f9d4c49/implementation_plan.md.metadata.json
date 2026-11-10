@@ -1,6 +1,6 @@
 {
-  "summary":  "Rapport d'enquête et plan de résolution pour le fond noir sur iPhone (Safari et Chrome) : diagnostic complet de la cause (conflit d'attribut src et absence d'appel .load() dans le moteur WebKit iOS, masquage par les calques noirs sans poster), et plan de correction ciblé pour rétablir la vidéo sans toucher à aucun autre élément du site.",
-  "updatedAt":  "2026-11-10T10:02:39.250931048Z",
+  "summary":  "Plan d'optimisation SEO technique complet pour le restaurant ABBY (Google, Search Console, réseaux sociaux) : balisage title & meta description calibrés, balises canonique, Open Graph et Twitter Cards pour www.abbyparis.fr, données structurées Schema.org JSON-LD (Restaurant avec ReserveAction Zenchef), génération de public/robots.txt, public/sitemap.xml et création de public/og-image.png, avec zéro modification sur le design du site.",
+  "updatedAt":  "2026-11-10T11:18:17.155071177Z",
   "requestFeedback":  true,
   "userFacing":  true
 }

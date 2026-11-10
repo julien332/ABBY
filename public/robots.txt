@@ -1,0 +1,6 @@
+# robots.txt pour ABBY Paris (https://www.abbyparis.fr)
+User-agent: *
+Allow: /
+
+# Sitemap officiel pour Googlebot et moteurs de recherche
+Sitemap: https://www.abbyparis.fr/sitemap.xml
